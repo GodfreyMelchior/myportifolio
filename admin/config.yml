@@ -4,7 +4,7 @@ backend:
   branch: master
   # Badilisha hii na URL ya Cloudflare Worker yako ya OAuth (bila slash mwishoni).
   # Mfano: https://portfolio-oauth.yourname.workers.dev
-  base_url: https://portfolio-oauth.goddymj.workers.dev
+  base_url: https://portfolio-oauth.myportifolio.workers.dev
 
 # Ruhusu kutest admin kwenye kompyuta yako kabla ya kudeploy (endesha: npx decap-server)
 local_backend: true
