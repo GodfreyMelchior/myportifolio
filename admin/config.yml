@@ -1,0 +1,152 @@
+backend:
+  name: github
+  repo: GodfreyMelchior/myportifolio
+  branch: master
+  # Badilisha hii na URL ya Cloudflare Worker yako ya OAuth (bila slash mwishoni).
+  # Mfano: https://portfolio-oauth.yourname.workers.dev
+  base_url: https://myportifolio.goddymj.workers.dev
+
+# Ruhusu kutest admin kwenye kompyuta yako kabla ya kudeploy (endesha: npx decap-server)
+local_backend: true
+
+media_folder: "assets/images"
+public_folder: "assets/images"
+
+collections:
+  # ---------------- PROFILE ----------------
+  - name: profile
+    label: "Profile / Sidebar"
+    files:
+      - name: profile
+        label: "Profile"
+        file: "data/profile.json"
+        fields:
+          - { label: "Full name", name: name, widget: string }
+          - { label: "Job title", name: title, widget: string }
+          - { label: "Avatar photo", name: avatar, widget: image }
+          - { label: "Email", name: email, widget: string }
+          - { label: "Phone", name: phone, widget: string }
+          - { label: "Birthday", name: birthday, widget: string }
+          - { label: "Location", name: location, widget: string }
+          - label: "Social links"
+            name: socials
+            widget: list
+            fields:
+              - label: "Network"
+                name: network
+                widget: select
+                options: ["linkedin", "twitter", "instagram", "facebook", "github", "youtube", "whatsapp"]
+              - { label: "URL", name: url, widget: string }
+
+  # ---------------- ABOUT ----------------
+  - name: about
+    label: "About"
+    files:
+      - name: about
+        label: "About page"
+        file: "data/about.json"
+        fields:
+          - label: "Intro paragraphs"
+            name: paragraphs
+            widget: list
+            field: { label: "Paragraph", name: paragraph, widget: text }
+          - label: "Services (What I'm doing)"
+            name: services
+            widget: list
+            fields:
+              - { label: "Icon", name: icon, widget: image }
+              - { label: "Title", name: title, widget: string }
+              - { label: "Text", name: text, widget: text }
+          - label: "Testimonials"
+            name: testimonials
+            widget: list
+            fields:
+              - { label: "Avatar", name: avatar, widget: image }
+              - { label: "Name", name: name, widget: string }
+              - { label: "Date", name: date, widget: date, format: "YYYY-MM-DD" }
+              - { label: "Text", name: text, widget: text }
+          - label: "Clients"
+            name: clients
+            widget: list
+            fields:
+              - { label: "Logo", name: logo, widget: image }
+              - { label: "URL", name: url, widget: string, required: false, default: "#" }
+
+  # ---------------- RESUME ----------------
+  - name: resume
+    label: "Resume"
+    files:
+      - name: resume
+        label: "Resume page"
+        file: "data/resume.json"
+        fields:
+          - label: "Education"
+            name: education
+            widget: list
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Period", name: period, widget: string }
+              - { label: "Text", name: text, widget: text }
+          - label: "Experience"
+            name: experience
+            widget: list
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Period", name: period, widget: string }
+              - { label: "Text", name: text, widget: text }
+          - label: "Skills"
+            name: skills
+            widget: list
+            fields:
+              - { label: "Name", name: name, widget: string }
+              - { label: "Percent (0-100)", name: percent, widget: number, value_type: int, min: 0, max: 100 }
+
+  # ---------------- PORTFOLIO ----------------
+  - name: portfolio
+    label: "Portfolio"
+    files:
+      - name: portfolio
+        label: "Portfolio page"
+        file: "data/portfolio.json"
+        fields:
+          - label: "Filter categories"
+            name: categories
+            widget: list
+            field: { label: "Category", name: category, widget: string }
+          - label: "Projects"
+            name: projects
+            widget: list
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Category", name: category, widget: string, hint: "Lazima ilingane na moja ya categories hapo juu" }
+              - { label: "Image", name: image, widget: image }
+              - { label: "Link URL", name: url, widget: string, required: false, default: "#" }
+
+  # ---------------- BLOG ----------------
+  - name: blog
+    label: "Blog"
+    files:
+      - name: blog
+        label: "Blog page"
+        file: "data/blog.json"
+        fields:
+          - label: "Posts"
+            name: posts
+            widget: list
+            fields:
+              - { label: "Image", name: image, widget: image }
+              - { label: "Category", name: category, widget: string }
+              - { label: "Date", name: date, widget: date, format: "YYYY-MM-DD" }
+              - { label: "Title", name: title, widget: string }
+              - { label: "Excerpt", name: excerpt, widget: text }
+              - { label: "Link URL", name: url, widget: string, required: false, default: "#" }
+
+  # ---------------- CONTACT ----------------
+  - name: contact
+    label: "Contact"
+    files:
+      - name: contact
+        label: "Contact page"
+        file: "data/contact.json"
+        fields:
+          - { label: "Google Map embed URL", name: mapEmbedUrl, widget: text }
