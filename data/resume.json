@@ -1,0 +1,42 @@
+{
+  "education": [
+    {
+      "title": "The University Of Dodoma (Bsc. Software Engineering)",
+      "period": "2017 — 2021",
+      "text": "Acquired core software development skills, specializing in system design, programming, and project management. Participated in practical projects and collaborative coursework to enhance technical proficiencies and problem-solving abilities."
+    },
+    {
+      "title": "Galanos High School",
+      "period": "2013 — 2015",
+      "text": "Acquired Advanced Certificate Of Education Examination"
+    },
+    {
+      "title": "St Mary's Ulete Secondary School",
+      "period": "2009 — 2012",
+      "text": "Acquired Certificate Of Secondary Education Examination"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Ict Officer",
+      "period": "2022 — Present",
+      "text": "I provide end-to-end IT support and develop custom software solutions to enhance business operations. My responsibilities include troubleshooting hardware and software issues, designing and implementing software applications, managing incident response, and training staff on technology use. My role supports both immediate technical needs and strategic software development, ensuring optimal performance and user satisfaction across the organization."
+    },
+    {
+      "title": "Software Developer",
+      "period": "2021 — 2022",
+      "text": "Software Developer (Full Stack Software Developer)"
+    },
+    {
+      "title": "Software Developer",
+      "period": "2017 — 2020",
+      "text": "Field Practical Training (Software Developer)"
+    }
+  ],
+  "skills": [
+    { "name": "Web design", "percent": 80 },
+    { "name": "Mobile App Development", "percent": 70 },
+    { "name": "Web Development", "percent": 90 },
+    { "name": "CMS", "percent": 50 }
+  ]
+}

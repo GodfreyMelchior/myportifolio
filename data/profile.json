@@ -1,0 +1,14 @@
+{
+  "name": "Godfrey John",
+  "title": "Software developer",
+  "avatar": "assets/images/myprofile.png",
+  "email": "goddydev@gmail.com",
+  "phone": "+255 (628) 731-434",
+  "birthday": "February 27, 1994",
+  "location": "Dodoma, Tanzania",
+  "socials": [
+    { "network": "linkedin", "url": "https://www.linkedin.com/in/godfrey-john-0418a8167/" },
+    { "network": "twitter", "url": "https://twitter.com/godfreyMjohn" },
+    { "network": "instagram", "url": "https://www.instagram.com/goddymj/" }
+  ]
+}

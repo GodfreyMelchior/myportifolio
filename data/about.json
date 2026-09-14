@@ -1,0 +1,60 @@
+{
+  "paragraphs": [
+    "Hello! I'm Godfrey John, a skilled software developer based in Dodoma,Tanzania. I specialize in mobile app development, web development. I thrive on transforming complex challenges into streamlined, visually appealing, and intuitive solutions.",
+    "My role is to develop applications and websites that are not only functional and user-friendly but also aesthetically pleasing. I bring a personal touch to each project, ensuring that your product is engaging and easy to navigate. My goal is to effectively communicate your message and identity through the most creative and innovative methods. I have delivered tailored software solutions for numerous high-profile clients, enhancing their brand and digital presence."
+  ],
+  "services": [
+    {
+      "icon": "assets/images/icon-design.svg",
+      "title": "Web design",
+      "text": "The most modern and high-quality design made at a professional level."
+    },
+    {
+      "icon": "assets/images/icon-dev.svg",
+      "title": "Web development and ODK tools",
+      "text": "High-quality development of sites and ODK tools at the professional level."
+    },
+    {
+      "icon": "assets/images/icon-app.svg",
+      "title": "Mobile apps",
+      "text": "Professional development of applications for iOS and Android."
+    },
+    {
+      "icon": "assets/images/icon-support.svg",
+      "title": "Ict Support",
+      "text": "ICT support involves troubleshooting and maintaining technology systems to ensure smooth and efficient operations."
+    }
+  ],
+  "testimonials": [
+    {
+      "avatar": "assets/images/avatar-1.png",
+      "name": "Augustine Malero",
+      "date": "2023-06-14",
+      "text": "Godfrey was tasked with developing the TTSave mobile app, and we were extremely satisfied with the results. He brings a wealth of experience to the table and is highly attentive to client needs. His commitment to delivering functional and user-friendly applications is evident in every aspect of his work."
+    },
+    {
+      "avatar": "assets/images/avatar-4.png",
+      "name": "Kelvin Mwakansope",
+      "date": "2023-06-14",
+      "text": "Godfrey was hired to develop our church management system, a web-based application. We were thoroughly impressed with the final product. His extensive experience and deep concern for client needs are clearly reflected in how he tailored the system to fit our specific requirements."
+    },
+    {
+      "avatar": "assets/images/avatar-3.png",
+      "name": "NI Team",
+      "date": "2023-06-14",
+      "text": "Godfrey was hired to provide ICT support and help desk services at Nutrition International Organization. We were very pleased with the effectiveness of his solutions. His extensive experience is evident in his thorough understanding of our needs and his commitment to excellent client service."
+    },
+    {
+      "avatar": "assets/images/avatar-4.png",
+      "name": "Jonathan Elia",
+      "date": "2023-06-14",
+      "text": "Godfrey was hired to develop our tourism website. We were extremely pleased with the result. His extensive experience and deep concern for client needs shone through in his approach to our project. He successfully captured the essence of our brand, creating a site that is not only visually appealing but also user-friendly and informative."
+    }
+  ],
+  "clients": [
+    { "logo": "assets/images/logo-ravens.png", "url": "#" },
+    { "logo": "assets/images/logo-NI.jpg", "url": "#" },
+    { "logo": "assets/images/logo-GDS.png", "url": "#" },
+    { "logo": "assets/images/logo-eyasi.png", "url": "#" }
+  ]
+}

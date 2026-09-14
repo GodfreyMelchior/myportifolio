@@ -1,0 +1,11 @@
+# OS / editor junk
+.DS_Store
+**/.DS_Store
+**/Thumbs.db
+
+# Replit leftovers (hazihitajiki kwa GitHub Pages)
+.cache/
+.config/
+.replit
+replit.nix
+replit_zip_error_log.txt
